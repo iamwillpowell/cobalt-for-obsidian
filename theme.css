@@ -8,6 +8,7 @@ body {
 	--toggle-radius: 0px;
 	--toggle-thumb-radius: 0px;
 	--slider-thumb-radius: 0px;
+  --file-line-width: 1200px;
 }
 
 .workspace-tab-header.is-active::before, .workspace-tab-header.is-active::after {
