@@ -9,6 +9,7 @@ body {
 	--toggle-thumb-radius: 0px;
 	--slider-thumb-radius: 0px;
   --file-line-width: 1200px;
+  --p-spacing: 0;
 }
 
 .workspace-tab-header.is-active::before, .workspace-tab-header.is-active::after {
@@ -140,7 +141,6 @@ svg * {
 
 	--blockquote-color: var(--color-comment-blue);
 
-
 	--code-normal:	#FFFFFF;
 	--code-comment: var(--color-comment-blue);
 	--code-function: var(--color-light-blue);
@@ -152,7 +152,6 @@ svg * {
 	--code-string: var(--color-green);
 	--code-tag: var(--color-cyan);
 	--code-value: var(--color-pink);
-
 
 	--h1-color: var(--color-orange);
 	--h2-color: var(--color-yellow);
