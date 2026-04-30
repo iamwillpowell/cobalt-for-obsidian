@@ -237,3 +237,7 @@ svg * {
 	--checklist-done-color: var(--color-comment-blue);
 	--list-marker-color: var(--color-salmon);
 }
+
+.theme-light {
+  --text-normal: #4b4b4b;
+}
