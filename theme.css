@@ -23,10 +23,6 @@ svg * {
 	ry: 0;
 }
 
-.cm-contentContainer {
-  line-height: 1.75rem;
-}
-
 .menu {
 	padding: var(--size-2-1);
 }
@@ -37,6 +33,14 @@ svg * {
 
 .menu-separator {
 	margin: var(--size-2-1) calc(var(--size-2-1) * -1);
+}
+
+.cm-contentContainer {
+  line-height: 1.75rem;
+
+  .hr {
+    line-height: .75rem;
+  }
 }
 
 .theme-dark {
@@ -161,7 +165,7 @@ svg * {
 	--h6-color: var(--color-yellow);
 	--heading-formatting: var(--color-pink);
 
-  	--h1-size:1.75em;
+  --h1-size:1.75em;
   --h2-size:1.5em;
   --h3-size:1.25em;
   --h4-size:0.90em;
