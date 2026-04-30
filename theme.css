@@ -37,7 +37,7 @@ svg * {
 
 .cm-contentContainer {
   font-family: ui-sans-serif, -apple-system, "system-ui", "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", "Noto Sans Arabic", "Noto Sans Hebrew", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
-  line-height: 1.75rem;
+  line-height: 1.6rem;
 
   .hr {
     line-height: .75rem;
