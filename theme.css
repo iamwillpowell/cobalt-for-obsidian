@@ -10,6 +10,7 @@ body {
 	--slider-thumb-radius: 0px;
   --file-line-width: 1200px;
   --p-spacing: 0;
+  --heading-spacing: 1em;
 }
 
 .workspace-tab-header.is-active::before, .workspace-tab-header.is-active::after {
@@ -35,6 +36,10 @@ svg * {
 	margin: var(--size-2-1) calc(var(--size-2-1) * -1);
 }
 
+.cm-sizer {
+  margin: 0 !important;
+}
+
 .cm-contentContainer {
   font-family: ui-sans-serif, -apple-system, "system-ui", "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", "Noto Sans Arabic", "Noto Sans Hebrew", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
   line-height: 1.6rem;
@@ -42,6 +47,33 @@ svg * {
   .hr {
     line-height: .75rem;
   }
+
+  --h1-size:1.75em;
+  --h2-size:1.5em;
+  --h3-size:1.25em;
+  --h4-size:0.90em;
+  --h5-size:0.85em;
+  --h6-size:0.85em;
+  /* --h1-weight:600;
+  --h2-weight:600;
+  --h3-weight:500;
+  --h4-weight:500;
+  --h5-weight:500;
+  --h6-weight:400;
+  --h1-variant:normal;
+  --h2-variant:normal;
+  --h3-variant:normal;
+  --h4-variant:normal;
+  --h5-variant:small-caps;
+  --h6-variant:small-caps;
+  --h1-style:normal;
+  --h2-style:normal;
+  --h3-style:normal;
+  --h4-style:normal;
+  --h5-style:normal;
+  --h6-style:normal; */
+
+
 }
 
 .theme-dark {
@@ -126,7 +158,7 @@ svg * {
 	--nav-item-background-hover:	var(--color-selected-blue);
 	--nav-item-background-active:	var(--color-deep-blue);
 	--nav-item-background-selected:	var(--color-light-green);
-	--nav-indetation-guide-color:	var(--color-pink);
+	--nav-indentation-guide-color:	var(--color-pink);
 	--nav-collapse-icon-color:	var(--color-pink);
 	--nav-collapse-icon-color-collapsed: var(--color-pink);
 
@@ -165,31 +197,6 @@ svg * {
 	--h5-color	: var(--color-orange);
 	--h6-color: var(--color-yellow);
 	--heading-formatting: var(--color-pink);
-
-  --h1-size:1.75em;
-  --h2-size:1.5em;
-  --h3-size:1.25em;
-  --h4-size:0.90em;
-  --h5-size:0.85em;
-  --h6-size:0.85em;
-  /* --h1-weight:600;
-  --h2-weight:600;
-  --h3-weight:500;
-  --h4-weight:500;
-  --h5-weight:500;
-  --h6-weight:400;
-  --h1-variant:normal;
-  --h2-variant:normal;
-  --h3-variant:normal;
-  --h4-variant:normal;
-  --h5-variant:small-caps;
-  --h6-variant:small-caps;
-  --h1-style:normal;
-  --h2-style:normal;
-  --h3-style:normal;
-  --h4-style:normal;
-  --h5-style:normal;
-  --h6-style:normal; */
 
 	--hr-color: var(--color-comment-blue);
 
@@ -230,14 +237,21 @@ svg * {
 
 	--checkbox-marker-color: var(--background-primary);
 	--checkbox-color: var(--color-yellow);
-	--checkbox-color-hover: var(--color-selected-blue);
+	--checkbox-color-hover: var(--color-orange);
 	--checkbox-border-color: #FFFFFF;
-	--checkbox-border-color-hover: var(--color-selected-blue);
+	--checkbox-border-color-hover: var(--color-yellow);
 	--checklist-done-decoration: line-through;
 	--checklist-done-color: var(--color-comment-blue);
-	--list-marker-color: var(--color-salmon);
+	--list-marker-color: var(--color-yellow);
 }
 
 .theme-light {
   --text-normal: #4b4b4b;
+}
+
+.markdown-reading-view {
+  h1, h2, h3, h4, h5, h6 {
+    margin-block-start: var(--heading-spacing);
+    margin-block-end: var(--heading-spacing);
+  }
 }
