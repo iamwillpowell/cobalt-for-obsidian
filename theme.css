@@ -158,9 +158,9 @@ svg * {
 	--nav-item-background-hover:	var(--color-selected-blue);
 	--nav-item-background-active:	var(--color-deep-blue);
 	--nav-item-background-selected:	var(--color-light-green);
-	--nav-indentation-guide-color:	var(--color-pink);
-	--nav-collapse-icon-color:	var(--color-pink);
-	--nav-collapse-icon-color-collapsed: var(--color-pink);
+	--nav-indetation-guide-color:	var(--color-yellow);
+	--nav-collapse-icon-color:	var(--color-yellow);
+	--nav-collapse-icon-color-collapsed: var(--color-yellow);
 
 	--prompt-border-color: var(--color-yellow);
 
