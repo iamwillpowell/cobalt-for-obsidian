@@ -241,7 +241,7 @@ svg * {
 	--checkbox-border-color: #FFFFFF;
 	--checkbox-border-color-hover: var(--color-yellow);
 	--checklist-done-decoration: line-through;
-	--checklist-done-color: var(--color-comment-blue);
+	--checklist-done-color: rgba(255, 255, 255, 0.5);
 	--list-marker-color: var(--color-yellow);
 }
 
