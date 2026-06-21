@@ -258,7 +258,14 @@ svg * {
 	--tag-border-color: var(--color-dark-blue);
 	--tag-border-color-hover: var(--color-dark-blue);
 	--text-selection: var(--color-comment-blue);
-	--text-highlight-bg: var(--color-selected-blue);
+	--text-highlight-bg: var(--color-yellow);
+   /* Hack to set highlight text color */
+  .cm-s-obsidian span.cm-highlight, .markdown-rendered mark {
+    color: var(--background-primary);
+  }
+  .search-result-file-matched-text {
+    color: var(--background-primary);
+  }
 
 	--text-muted: #eeeeee;
 	--text-on-accent: #ffffff;
