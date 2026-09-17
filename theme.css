@@ -11,7 +11,7 @@ body {
 	--file-line-width: 1000px;
 	--p-spacing: 0;
 	--heading-spacing: 1em;
-	--tab-stacked-pane-width: 900px;
+	--tab-stacked-pane-width: 1200px;
 }
 
 .workspace-tab-header.is-active::before,
